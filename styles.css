@@ -4,7 +4,9 @@
 PAGE/DEFAULT STYLES
 ==================
 */
-
+a {
+  text-decoration: none;
+}
 html {
   background-color: #CCCCDD;
 }
@@ -40,7 +42,41 @@ small {
 
 .moreInfo {
   background-color: white;
-  padding-left: 4em;
-  padding-right: 4em;
   margin-bottom: 2em;
+
+}
+
+
+
+
+.btn-share, .sorting {
+    margin: 0 5px;
+}
+.btn-share {
+    color: #FFF;
+    background-color: #77c;
+    border-color: #77c;
+    font-family: Helvetica;
+    padding: 0 2px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
