@@ -1,0 +1,46 @@
+
+/*
+==================
+PAGE/DEFAULT STYLES
+==================
+*/
+
+html {
+  background-color: #CCCCDD;
+}
+
+button {
+  background-color: #7777CC;
+}
+
+nav {
+  background-color: #9999CC;
+}
+/*
+==================
+MAIN STYLES
+==================
+*/
+
+main h1 {
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0 auto;
+  height: auto;
+  width: 20em;
+  text-align: center;
+}
+
+
+small {
+  margin: o auto;
+}
+
+.moreInfo {
+  background-color: white;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin-bottom: 2em;
+}
