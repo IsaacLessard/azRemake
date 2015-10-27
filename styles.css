@@ -1,4 +1,3 @@
-
 /*
 ==================
 PAGE/DEFAULT STYLES
@@ -43,4 +42,48 @@ small {
   padding-left: 4em;
   padding-right: 4em;
   margin-bottom: 2em;
+}
+
+header {
+  height: 52px;
+  background-color: #9999CC;
+}
+
+header img {
+  width: 42px;
+  height: 42px;
+  margin: 5px;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  width: 10px;
+  color: #FFF;
+  font-family: sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px;
+    margin-top: -18px;
+    width: 100%;
+  }
+
+.navbar-bottom>li>a {
+  height: 52px;
+  background-color: #9999CC;
+  display: inline-block;
+  width: 10px;
+  color: #FFF;
+}
+
+.navbar-bottom {
+  height: 52px;
+  background-color: #9999CC;
+  margin-bottom: 100px;
 }
