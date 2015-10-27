@@ -87,3 +87,29 @@ nav a {
   background-color: #9999CC;
   margin-bottom: 100px;
 }
+
+.page-footer {
+	background-color: #CCCCDD;
+	text-align: center;
+}
+
+.page-footer a {
+	margin: 0 1%;
+}
+
+.page-footer-powered {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.page-footer-powered > span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 40px;
+}
+
+.page-footer-small-bold {
+	font-weight: bold;
+}
+
